@@ -1,6 +1,6 @@
 {
-  "name": "tilestrata-disk",
-  "version": "0.5.0",
+  "name": "@conorpai/tilestrata-disk",
+  "version": "0.5.1",
   "description": "A TileStrata plugin for reading/writing tiles from the filesystem",
   "author": "Brian Reavis <brian@naturalatlas.com>",
   "license": "Apache-2.0",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naturalatlas/tilestrata-disk.git"
+    "url": "https://github.com/ConorPai/tilestrata-disk.git"
   },
   "keywords": [
     "tilestrata",
@@ -20,9 +20,9 @@
     "tilestrata-cache"
   ],
   "bugs": {
-    "url": "https://github.com/naturalatlas/tilestrata-disk/issues"
+    "url": "https://github.com/ConorPai/tilestrata-disk/issues"
   },
-  "homepage": "https://github.com/naturalatlas/tilestrata-disk",
+  "homepage": "https://github.com/ConorPai/tilestrata-disk",
   "dependencies": {
     "fs-extra": "^0.13.0",
     "mime": "^1.3.4"
@@ -33,5 +33,8 @@
   },
   "peerDependencies": {
     "tilestrata": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
