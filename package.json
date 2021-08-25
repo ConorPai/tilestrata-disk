@@ -1,6 +1,6 @@
 {
   "name": "@conorpai/tilestrata-disk",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A TileStrata plugin for reading/writing tiles from the filesystem",
   "author": "Brian Reavis <brian@naturalatlas.com>",
   "license": "Apache-2.0",
